@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo_css.css">
+    <title>Date-wise To-Do List</title>
+</head>
+<body>
+
+
+<div class="background-container">
+    <div class="todo-container">
+        <h1>Date-wise To-Do List</h1>
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Add a new task">
+            <input type="date" id="startDateInput">
+            <input type="date" id="dueDateInput">
+            <button id="addTaskBtn">Add</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+    <div class="quote-container">
+        <p class="quote-text">"Your only limit is your mind."</p>
+        <p class="quote-author">- Unknown</p>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
